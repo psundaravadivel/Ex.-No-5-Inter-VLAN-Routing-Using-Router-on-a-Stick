@@ -17,7 +17,7 @@ ________________________________________
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
 •	Switch connected to Router via a trunk port (FastEthernet0/1 on switch → GigabitEthernet0/0 on router)<br>
 •	Router subinterfaces handle VLAN routing<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/7fc7ff67-8345-4bf5-ab09-4751b6ca1499" />
 ________________________________________
 # IP Addressing Table
 Device	VLAN	IP Address	Subnet Mask	Port/Interface<br>
@@ -87,10 +87,25 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/dab9d3d3-fde3-4755-849c-0543ce502188" />
+
 •	Router subinterface configuration<br>
+
+<img width="1600" height="902" alt="image" src="https://github.com/user-attachments/assets/0ba35dd4-3ab5-44fe-8f1b-5dbb15490b1f" />
+
 •	PC IP settings<br>
+
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/e671a193-f96c-42d5-8aab-63e490c20189" />
+
 •	Successful ping between PCs in different VLANs after routing<br>
+
+<img width="1600" height="899" alt="image" src="https://github.com/user-attachments/assets/b63b3f45-4b43-42c1-b785-2b1b46c2ebe2" />
+
 •	Successful ping between PCs in the same VLAN<br>
+
+<img width="1600" height="896" alt="image" src="https://github.com/user-attachments/assets/908157d3-09a2-4dea-bc66-7e790025679b" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
